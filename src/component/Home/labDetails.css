@@ -1,0 +1,95 @@
+/* Custom styles for the lab details section */
+
+.lab-details-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lab-details-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .lab-details-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .lab-details-about {
+    margin-left: 20px;
+  }
+  
+  .lab-details-right {
+    flex: 0.3;
+    text-align: center;
+  }
+  
+  .lab-details-button {
+    background-color: #007acc;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .lab-details-button:hover {
+    background-color: #005196;
+  }
+  
+
+/* Add your custom CSS rules here */
+
+.custom-container {
+    /* Define styles for the container */
+    /* Example styles: */
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.custom-details {
+    /* Define styles for the details section */
+    /* Example styles: */
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-header {
+    /* Define styles for the header */
+    /* Example styles: */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+.custom-body {
+    /* Define styles for the body/content area */
+    /* Example styles: */
+    padding: 10px;
+}
+
+.custom-branch {
+    /* Define styles for the branch information */
+    /* Example styles: */
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.custom-branch div {
+    /* Define styles for the divs within the branch section */
+    /* Example styles: */
+    margin: 5px;
+}
+
+/* Add more CSS rules as needed to style your components. */

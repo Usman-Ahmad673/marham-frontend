@@ -1,0 +1,24 @@
+    .doctor-card-scroll {
+        width: 100%;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    .doctorCard{
+        text-decoration: none;
+    }
+    
+    .card {
+        text-transform: capitalize;
+        display: flex;
+        flex-direction: row;
+        width: 30rem;
+        height: 10rem;
+        padding: 5%;
+        background-color: rgba(67, 211, 192, 0.705);
+    }
+    .card-img-top{
+        width: 20%;
+        height: 65%;
+        border-radius: 50%;
+        background-color: aquamarine;
+    }

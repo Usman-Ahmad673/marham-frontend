@@ -1,0 +1,74 @@
+.flex{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    border-radius: 20px;
+}
+
+.left-flex{
+    display: flex;
+    width: 50%;
+    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.left-flex > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.surgeon_details{
+    margin: 1rem 0 0 5rem;
+}
+
+
+.surgeon_details > button{
+    color: white;
+    background-color: rgb(184, 0, 0);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.right-flex{
+    padding: 20px;
+    margin: 20px;
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+    display: flex;
+    flex-direction: column;
+}
+
+.surgeon-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.surgeon-form > input{
+    padding: 5px;
+    margin: 10px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.surgeon-form > input:hover{
+    box-shadow: 10px 10px 10px rgba(255, 222, 173, 0.616);
+}
+
+.surgeon-form > button{
+    color: white;
+    background-color: rgb(184, 0, 0);
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.surgeon-form > button:hover{
+    box-shadow: 10px 10px 10px rgba(223, 86, 44, 0.616);
+}

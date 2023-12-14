@@ -1,0 +1,49 @@
+    .hospital-header {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #014E78 !important;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    }
+    .hospital-header > h4 {
+        padding: 10px 0;
+    }
+
+    .foot{
+        display: flex;
+    }
+    .foot > p{
+        margin-left: 250px;
+    }
+
+    .speciality {
+        display: flex;
+        overflow-x: auto; /* Add a horizontal scrollbar when content overflows */
+        gap: 30px; /* Adjust as needed */
+        white-space: nowrap; /* Keeps buttons in a single line */
+    }
+    .link-button {
+        margin: 15px;
+        padding: 20px 50px;
+        background-color: #82d7ff;
+        color: #000000;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .doctors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    }
+
+    .hospital_about,
+    .hospital_description {
+    margin-top: 20px;
+    }
+
+    .hospital_test {
+    margin-top: 20px;
+    }

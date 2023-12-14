@@ -1,0 +1,110 @@
+    .practice-details-grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10rem;
+        border-radius: 20px;
+        border: 1px solid rgba(245, 222, 179, 0.363);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        /* background-color: #1ce0af; */
+        padding: 0.9rem;
+        margin: 1rem;
+    }
+    
+    .grid-container > div {
+        /* background-color: rgba(255, 255, 255, 0.8); */
+        /* text-align: center; */
+        padding: 20px;
+        /* font-size: 30px; */
+    }
+
+    .left-side{
+        width: max-content;
+        /* margin: auto; */
+        display: flex;
+    }
+
+    .left-side > img{
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+    }
+
+    .left-side > div{
+        margin: 1.5rem;
+        text-transform: capitalize;
+        min-width: max-content;
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-side > div > p{
+        
+        font-size: 1.2rem;
+    }
+
+    .left-side > div > p > b{
+        color: white;
+        border-radius: 2px;
+        /* padding: 0.2rem; */
+        background-color: green;
+        margin-left: 0.3rem;
+    }
+
+    .right-side{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .right-side > button{
+        border: none;
+        margin: 1rem;
+        padding: 1rem;
+        width: 100%;
+        border-radius: 8px;
+        font-size: 1.2rem;
+    }
+    .right-side > button:first-child{
+        background-color: rgba(240, 73, 73, 0.959);
+        color: white;
+    }
+    .right-side > button:last-child{
+        background-color: rgb(9, 143, 9);
+        color: white;
+    }
+
+    .practice-container-2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 0.9rem;
+        margin: 1rem;
+        border-radius: 20px;
+        border: 1px solid rgba(245, 222, 179, 0.363);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .practice-details-video-consult{
+        border-radius: 5px;
+        border: 1px solid black;
+        /* background-color: red; */
+        margin: 0.2rem;
+        padding: 0.5rem;
+    }
+    
+    .clinic-consult{
+        /* padding: 20px; */
+        margin: 10px;
+    }
+
+    .video-consult{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid gray;
+        text-transform: capitalize;
+    }
+
+    .video-consult-details{
+        margin: 0.8rem 0.8rem 0 0.8rem;
+    }

@@ -1,0 +1,46 @@
+.clinic{
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(215, 241, 250);
+    width: 100%;
+    display: flex;
+    /* background-color: rgb(235, 235, 114); */
+}
+.clinic > a > img{
+    padding: 5px;
+    float: right;
+    /* mix-blend-mode: color-burn; */
+}
+.heading_img{
+    padding: 15px;
+    width: 73%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .clinic{
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px rgb(215, 241, 250);
+        width: 100%;
+        /* background-color: rgb(235, 235, 114); */
+    }
+}
+
+.docCard{
+    /* border: 1px solid rgba(128, 128, 128, 0.404);
+    border-radius: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Custom CSS for the container div */
+.hospital-card-container {
+    max-width: 100%; /* Ensure it doesn't exceed its parent's width */
+    overflow-x: auto; /* Add a horizontal scrollbar when content overflows */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    padding: 10px; /* Add padding for styling */
+}

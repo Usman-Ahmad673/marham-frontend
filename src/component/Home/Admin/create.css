@@ -1,0 +1,121 @@
+/* Styles for the AddDoctor component */
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    max-width: 800px; /* Increase the max-width for a wider form */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Create a grid layout for form elements */
+  .form-container form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 16px; /* Adjust the gap between grid items */
+  }
+  
+  /* Style form labels */
+  .form-container label {
+    grid-column: span 2; /* Labels span both columns */
+  }
+  
+  /* Style for adding/removing items (Symptoms, Diseases, etc.) */
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .form-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .remove-button {
+    background-color: #ff5858;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #ff0000;
+  }
+  
+  /* Style for clinic days (Clinic Days, Hospital Days, etc.) */
+  
+  .form-group {
+    margin-top: 16px;
+  }
+  
+  /* Style for images preview */
+  
+  #createProductFormImage img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  /* Style for radio buttons */
+  
+  .form-container label input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Style for select dropdowns */
+  
+  .form-container select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Center-align the submit button */
+  .form-container button[type="submit"] {
+    grid-column: span 2; /* Submit button spans both columns */
+    text-align: center;
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .form-container button[type="submit"]:hover {
+    background-color: #005196;
+  }
+  

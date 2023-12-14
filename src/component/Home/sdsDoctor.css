@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    width: 65vw;
+    grid-template-columns: auto ;
+    grid-gap: 20px;
+    padding: 0.9rem;
+    margin: 1rem;
+    border-radius: 20px;
+    border: 1px solid rgba(245, 222, 179, 0.363);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.sdc{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+
+
+
+.sdc > li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(245, 222, 179, 0.363);
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.services , .disease , .symptom , .surgery{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.377);
+}

@@ -1,0 +1,46 @@
+.surgeon{
+    display: flex;
+    flex-direction: column;
+}
+.surgeonCard{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.surgeon-card{
+    display: flex;
+    border-radius: 10px;
+    width: max-content;
+    padding: 10px;
+}
+
+.surgeon-card > img{
+    width: 10rem;
+    height: auto;
+    border: none;
+    box-shadow: 0 10px 10px 10px gray;
+    border-radius: 20%;
+    margin: 15px;
+}
+
+
+.surgeon-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 3rem;
+}
+
+.surgeon-button > button{
+    color: white;
+    background-color: rgb(184, 0, 0);
+    padding: 10px 70px;
+    border: none;
+    border-radius: 15px;
+}
+

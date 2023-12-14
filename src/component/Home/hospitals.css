@@ -1,0 +1,74 @@
+    .hospitals {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .search-box{
+        background-color: rgb(1 78 120)!important;
+        padding: 3rem;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+
+    .search-box > h3{
+        color: white;
+        width: 40%;
+        margin: 0 auto;
+        padding: 0.8rem;
+    }
+    
+    .hospitalCard{
+        width: 60%;
+        margin: auto;
+        
+    }
+
+    .hospital-card{
+        padding: 2rem;
+        border: 1px solid rgba(245, 222, 179, 0.39);
+        height: 100%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.493);
+    }
+    .hospital-card-scroll {
+        display: flex;
+        overflow-x: scroll;
+        margin: 2rem;
+        padding: 1rem;
+    }
+    .hospitalCard{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: black;
+    }
+    
+    .hospital-card-img-top{
+        width: 20%;
+        height: 65%;
+        border-radius: 50%;
+        background-color: aquamarine;
+    }
+    .hospital-card-body{
+        margin: 1rem;
+    }
+
+    .help-button{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .help-button > button{
+        margin-top: 3rem;
+        width: 75%;
+        padding: 0.8rem;
+        border: transparent;
+        background-color: rgb(192, 1, 1);
+        color: white;
+        border-radius: 10px;
+    }

@@ -1,0 +1,78 @@
+.selected{
+    background-color: green;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons > button{
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    margin: 0.2rem 0.5rem;
+    padding: 0.8rem;
+    color: white;
+    text-transform: capitalize;
+}
+.buttons > button:first-child{
+    background-color: rgb(255, 0, 0);
+}
+.buttons > button:last-child{
+    background-color: rgb(5, 71, 212);
+}
+
+.btn{
+    margin: 0.2rem;
+    box-shadow: 0px 5px 10px gray;
+    /* background-color: red; */
+}
+
+.days{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 5px;
+}
+
+.time{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 5px;
+}
+
+.heading{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    /* grid-gap: 10px; */
+    justify-items: center;
+    padding: 0.9rem;
+    margin: 1rem;
+    border-radius: 20px;
+    border: 1px solid rgba(245, 222, 179, 0.363);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.form > div > label{
+    display: flex;
+    /* color: red; */
+}
+
+.form > button{
+    grid-column: 1 / span 2; /* Spanning the full width of two columns */
+    justify-self: center; /* Center item horizontally within the grid cell */
+    margin: 15px;
+    width: 20%;
+    color: white;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(255, 59, 59, 0.2);
+}
